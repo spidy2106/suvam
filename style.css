@@ -112,7 +112,7 @@ nav ul li a:hover{
     display: none;
 }
 
-@media (max-width:952px){
+/* @media (max-width:952px){
     label.logo{
         font-size:30px;
         padding-left:50px ;
@@ -120,29 +120,19 @@ nav ul li a:hover{
     nav ul li a{
         font-size: 16px;
     }
-}
+} */
 
-@media screen and (min-width:360px) and (max-width:1240px){
-
-    /* #myvideo{
-        position: inherit;
-        
-        
-         */
-    /* } */
+@media screen and (min-width: 360px) and (max-width: 640px){
     
     body{
         width: 500px;
         height: 300px;
     }
+video {
+    width: 1133px;
+    height: 639px;
+    }
 
-    video{
-        width: 1139px;
-        height: 374px;
-        display: block;
-    
-
-    }  
     label.logo {
         font-size: 30px;
         padding-left: 13px;
@@ -209,8 +199,97 @@ nav ul li a:hover{
         right: 122px;
     }
    
-
 }
+
+@media screen and (min-width:411px) and (max-width:823px){
+
+    /* #myvideo{
+        position: inherit;
+        
+        
+         */
+    /* } */
+    
+    body{
+        width: 500px;
+        height: 300px;
+    }
+
+    video{
+        width: 1464px;
+        height: 794px;
+    
+}
+    
+
+    label.logo {
+        font-size: 30px;
+        padding-left: 13px;
+    }
+
+    nav{
+        font-family: Ubuntu,bolder;
+        /* position:absolute; */
+        top: 0;
+        height:80px;
+        position: absolute;
+    }
+
+    .content h1{
+        
+        animation: none;
+        color: slategray;
+        font-size: 40px;
+        animation: animate 20s infinite;
+        left:50%;
+
+    }
+    @keyframes animate{
+        from { color: black }
+        to   { color: darkslategray}
+    }
+
+    .checkbtn{
+        display: block;
+    }
+    
+    ul{
+        
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2c3e50;
+        top:80px;
+        left:-100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li{
+        display: block;
+    }
+    nav ul li a{
+        font-size:20px;
+    }
+    a.hover{
+        background: none;
+        color: #0082e6;        
+    }
+
+    #check:checked ~ ul{
+        left:0;
+
+    }
+    nav ul {
+        
+        float: right;
+        width: 370px;
+    }
+    .gotop {
+        right: 122px;
+    }
+   
+}
+
 
 section {
     width:100%;
@@ -258,4 +337,3 @@ section {
     right:122px;
     
 }
-/* overflow:hidden; */
