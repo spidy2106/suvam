@@ -37,7 +37,7 @@ body h1{
 
 @keyframes animate{
     from { color: black }
-    to   { color: whitesmoke}
+    to   { color: white}
 }
 /* @media screen and (max-width: 600px){
 
