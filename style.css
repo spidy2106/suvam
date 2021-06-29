@@ -39,7 +39,7 @@ body h1{
     from { color: black }
     to   { color: darkslategray}
 }
-@media screen and (max-width: 600px){
+/* @media screen and (max-width: 600px){
 
     #myvideo{
         position: inherit;
@@ -51,7 +51,7 @@ body h1{
         color: lightcoral;
         font-size: 20px;
     }
-}
+} */
  nav{
      
     font-family: Ubuntu,bolder;
@@ -111,7 +111,7 @@ nav ul li a:hover{
     display: none;
 }
 
-@media (max-width:952px){
+@media (max-width:600px){
     label.logo{
         font-size:30px;
         padding-left:50px ;
@@ -120,7 +120,22 @@ nav ul li a:hover{
         font-size: 16px;
     }
 }
-@media (max-width:858px){
+
+@media screen and (min-width:360px) and (max-width:1024px){
+
+    #myvideo{
+        position: inherit;
+        
+        
+    }  
+
+    nav{
+        font-family: Ubuntu,bolder;
+        /* position:absolute; */
+        top: 0;
+        height:80px;
+        position: absolute;
+    }
 
     .content h1{
         
@@ -128,6 +143,8 @@ nav ul li a:hover{
         color: slategray;
         font-size: 40px;
         animation: animate 20s infinite;
+        left:60%;
+
     }
     @keyframes animate{
         from { color: black }
@@ -137,7 +154,11 @@ nav ul li a:hover{
     .checkbtn{
         display: block;
     }
+    nav{
+        left: 94px;
+    }
     ul{
+        
         position: fixed;
         width: 100%;
         height: 100vh;
@@ -162,6 +183,11 @@ nav ul li a:hover{
         left:0;
 
     }
+    nav ul {
+        
+        float: right;
+        width: 370px;
+    }
    
 
 }
@@ -176,9 +202,7 @@ section {
     /* display: inline-block; */
 }
 
-#home{
-   
-}
+
 #about{
     
     background-color:#3b82f6;
