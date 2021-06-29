@@ -65,6 +65,7 @@ body h1{
 
 
 
+
 label.logo{
     color: darkslategray;
     font-family: Ubuntu,bold;
@@ -121,13 +122,31 @@ nav ul li a:hover{
     }
 }
 
-@media screen and (min-width:360px) and (max-width:1024px){
+@media screen and (min-width:360px) and (max-width:640px){
 
-    #myvideo{
+    /* #myvideo{
         position: inherit;
         
         
+         */
+    /* } */
+    
+    body{
+        width: 500px;
+        height: 300px;
+    }
+
+    video{
+        width: 1139px;
+        height: 374px;
+        display: block;
+    
+
     }  
+    label.logo {
+        font-size: 30px;
+        padding-left: 13px;
+    }
 
     nav{
         font-family: Ubuntu,bolder;
@@ -143,7 +162,7 @@ nav ul li a:hover{
         color: slategray;
         font-size: 40px;
         animation: animate 20s infinite;
-        left:60%;
+        left:50%;
 
     }
     @keyframes animate{
@@ -154,9 +173,7 @@ nav ul li a:hover{
     .checkbtn{
         display: block;
     }
-    nav{
-        left: 94px;
-    }
+    
     ul{
         
         position: fixed;
@@ -187,6 +204,9 @@ nav ul li a:hover{
         
         float: right;
         width: 370px;
+    }
+    .gotop {
+        right: 122px;
     }
    
 
@@ -235,6 +255,6 @@ section {
     height: 50px;
     color: black;
     bottom: 40px;
-    right:50px;
+    right:122px;
     
 }
