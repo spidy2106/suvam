@@ -122,15 +122,20 @@ nav ul li a:hover{
     }
 } */
 
-@media screen and (min-width: 360px) and (max-width: 640px){
+
+
+
+
+
+@media screen and (min-width: 360px) and (max-width: 812px){
     
     body{
         width: 500px;
         height: 300px;
     }
-video {
-    width: 1133px;
-    height: 639px;
+    video {
+        width: 1441px;
+        height: 809px;
     }
 
     label.logo {
